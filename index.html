@@ -1,24 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=\, initial-scale=1.0" />
     <title>Welcome to jinith kokoa talk</title>
   </head>
   <body>
-    <div id="status-bar">
+    <div class="status-bar">
       <div class="status-bar__column">
         <span>jinith's T</span>
-        <!-- wifi icon -->
+        <i class="fas fa-wifi"></i>
       </div>
       <div class="status-bar__column">
         <span>11:02</span>
       </div>
       <div class="status-bar__column">
         <span>1%</span>
-        <!-- bettery icon -->
+        <i class="fas fa-battery-empty"></i>
       </div>
     </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">welcome to jinith's kokoa</h1>
+      <p class="welcome-header__text">
+        if you have a kakao account, log in with your email or phone number.
+      </p>
+    </header>
+
+    <form id="login-form">
+      <input type="text" placeholder="Email or phone number" />
+      <input type="password" placeholder="password" />
+      <input type="submit" value="Log IN" />
+    </form>
+    <a href="#">find kakao Account or Password</a>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
