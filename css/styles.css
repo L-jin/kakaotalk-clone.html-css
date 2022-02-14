@@ -3,12 +3,22 @@
 
 @import "components/status.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-components.css";
+@import "components/badge.css";
 
 @import "screens/login.css";
+@import "screens/friends.css";
 
 body {
-  font-family: "Times New Roman", Times, serif;
+  font-family: fantasy;
   background-color: rgb(250, 194, 203);
-
+  color: var(--jpink);
   height: 1000vh;
+}
+
+.main-screen {
+  padding: 0px var(--horizintal-space);
+  display: flex;
+  justify-content: space-between;
 }

@@ -13,5 +13,41 @@
   justify-content: space-between;
 }
 .nav__link {
+  position: relative;
   color: whitesmoke;
+}
+
+.nav__notification {
+  background-color: rgb(194, 190, 190);
+  width: 25px;
+  height: 20px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 100;
+  position: absolute;
+  left: 40px;
+  bottom: 20px;
+}
+
+.nav__notification0 {
+  background-color: rgb(194, 190, 190);
+  width: 8px;
+  height: 8px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  position: absolute;
+  left: 50px;
+  bottom: 28px;
+}
+
+.nav__link--name {
+  font-size: 35px;
+  font-weight: bold;
+  font-stretch: expanded;
+  margin: 30px;
 }
