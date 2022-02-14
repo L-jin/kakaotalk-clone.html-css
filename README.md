@@ -1,4 +1,4 @@
-# KOKOA CLONE 2022
+# KOKOA CLONE (kakao talk clone coding)  2022  
 
 nomadcoders's lecture.
 
