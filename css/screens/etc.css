@@ -1,0 +1,10 @@
+.etc-suggestions {
+  border-top: var(--main-border);
+  padding: 15px 0px;
+}
+
+.etc-suggestions__factor {
+  font-size: 60px;
+  color: grey;
+  margin: 20px;
+}
